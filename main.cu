@@ -374,7 +374,7 @@ static void train_LogRegGpu2(Mat *xs, Mat *ys, Mat *params, Mat *trainedParams, 
 
 int main(int argc, char **argv)
 {
-	string csv_file("/Users/markus/houses.csv");
+	string csv_file("./houses.csv");
 
 	Mat xs;
 	Mat ys;
